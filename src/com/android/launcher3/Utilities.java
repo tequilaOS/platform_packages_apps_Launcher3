@@ -745,6 +745,11 @@ public final class Utilities {
         return prefs.getBoolean(KEY_DT_GESTURE, true);
     }
 
+    public static boolean isWorkspaceEditAllowed(Context context) {
+        SharedPreferences prefs = LauncherPrefs.getPrefs(context.getApplicationContext());
+        return !prefs.getBoolean(InvariantDeviceProfile.KEY_WORKSPACE_LOCK, false);
+    }
+
     public static boolean isGSAEnabled(Context context) {
         try {
             return context.getPackageManager().getApplicationInfo(GSA_PACKAGE, 0).enabled;
