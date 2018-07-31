@@ -189,6 +189,10 @@ public class SettingsActivity extends FragmentActivity
         private boolean mPreferenceHighlighted = false;
         private Preference mDeveloperOptionPref;
 
+        private static final String KEY_MINUS_ONE = "pref_enable_minus_one";
+
+        private Preference mShowGoogleAppPref;
+
         @Override
         public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
             final Bundle args = getArguments();
@@ -223,6 +227,9 @@ public class SettingsActivity extends FragmentActivity
                 }
                 getActivity().setTitle(getPreferenceScreen().getTitle());
             }
+
+            mShowGoogleAppPref = screen.findPreference(KEY_MINUS_ONE);
+            updateIsGoogleAppEnabled();
         }
 
         @Override
@@ -248,6 +255,12 @@ public class SettingsActivity extends FragmentActivity
 
         protected String getParentKeyForPref(String key) {
             return null;
+        }
+
+        private void updateIsGoogleAppEnabled() {
+            if (mShowGoogleAppPref != null) {
+                mShowGoogleAppPref.setEnabled(Utilities.isGSAEnabled(getContext()));
+            }
         }
 
         /**
@@ -316,6 +329,8 @@ public class SettingsActivity extends FragmentActivity
                     requestAccessibilityFocus(getListView());
                 }
             }
+
+            updateIsGoogleAppEnabled();
         }
 
         private PreferenceHighlighter createHighlighter() {
