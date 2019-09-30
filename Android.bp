@@ -141,6 +141,8 @@ android_app {
     srcs: [
         "src/**/*.java",
         "src/**/*.kt",
+        "src_base/**/*.java",
+        "src_base/**/*.kt",
         "src_shortcuts_overrides/**/*.java",
         "src_shortcuts_overrides/**/*.kt",
         "src_ui_overrides/**/*.java",
