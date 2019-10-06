@@ -4,4 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+    <!-- Folder titles -->
+    <string name="google_folder_title" translatable="false">Google</string>
 </resources>
