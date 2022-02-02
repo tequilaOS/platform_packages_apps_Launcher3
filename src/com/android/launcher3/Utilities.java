@@ -151,6 +151,7 @@ public final class Utilities {
             Build.TYPE.toLowerCase(Locale.ROOT).equals("eng");
 
     public static final String KEY_SMARTSPACE = "pref_smartspace";
+    public static final String KEY_DOCK_SEARCH = "pref_dock_search";
 
     /**
      * Returns true if theme is dark.
@@ -941,5 +942,14 @@ public final class Utilities {
     private static boolean isSmartspaceEnabled(Context context) {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_SMARTSPACE, true);
+    }
+
+    public static boolean showQSB(Context context) {
+        return isGSAEnabled(context) && isQSBEnabled(context);
+    }
+
+    private static boolean isQSBEnabled(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(KEY_DOCK_SEARCH, true);
     }
 }
