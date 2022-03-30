@@ -97,6 +97,8 @@ public class InvariantDeviceProfile {
 
     private static final float ICON_SIZE_DEFINED_IN_APP_DP = 48;
 
+    public static final String KEY_ALLAPPS_THEMED_ICONS = "pref_allapps_themed_icons";
+
     // Constants that affects the interpolation curve between statically defined device profile
     // buckets.
     private static final float KNEARESTNEIGHBOR = 3;
@@ -311,6 +313,15 @@ public class InvariantDeviceProfile {
             return TYPE_TABLET;
         } else {
             return TYPE_PHONE;
+        }
+    }
+
+    @Override
+    public void onSharedPreferenceChanged(SharedPreferences prefs, String key) {
+        switch (key) {
+            case KEY_ALLAPPS_THEMED_ICONS:
+                onConfigChanged(mContext);
+                break;
         }
     }
 
