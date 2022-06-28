@@ -12,4 +12,7 @@
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Ana sayfadan sağa kaydırdığınızda</string>
     <!-- Hotseat searchbar -->
+    <string name="label_search">Ara</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Sesli arama</string>
 </resources>
