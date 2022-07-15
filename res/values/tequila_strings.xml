@@ -3,7 +3,7 @@
      Copyright (C) 2022-2023 tequilaOS
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Folder titles -->
     <string name="google_folder_title" translatable="false">Google</string>
 
@@ -39,6 +39,7 @@
     <string name="category_google">Google</string>
     <string name="category_icon">Icons</string>
     <string name="category_recents">Recents</string>
+    <string name="category_opacity">Opacity</string>
 
     <!-- Hotseat searchbar -->
     <string name="label_search">Search</string>
@@ -56,4 +57,13 @@
     <string name="smartspace_pref_title">At a Glance</string>
     <string name="smartspace_pref_summary">Show smartspace at the top of home screen</string>
 
+    <!-- Background opacity -->
+    <string name="background_opacity_app_title">Background opacity for App Drawer</string>
+    <string name="background_opacity_recent_title">Background opacity for Recents</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">by default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
 </resources>
