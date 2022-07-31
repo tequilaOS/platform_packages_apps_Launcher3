@@ -69,6 +69,12 @@
         android:summary="@string/dock_search_summary"
         android:defaultValue="false" />
 
+    <SwitchPreference
+        android:key="pref_smartspace"
+        android:title="@string/smartspace_pref_title"
+        android:summary="@string/smartspace_pref_summary"
+        android:defaultValue="true" />
+
     <androidx.preference.PreferenceScreen
         android:key="pref_developer_options"
         android:persistent="false"
