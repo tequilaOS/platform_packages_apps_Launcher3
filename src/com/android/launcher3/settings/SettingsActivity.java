@@ -144,6 +144,7 @@ public class SettingsActivity extends FragmentActivity
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
         switch (key) {
+            case Utilities.KEY_SMARTSPACE:
             case Utilities.KEY_DOCK_SEARCH:
                 LauncherAppState.getInstanceNoCreate().setNeedsRestart();
                 break;
