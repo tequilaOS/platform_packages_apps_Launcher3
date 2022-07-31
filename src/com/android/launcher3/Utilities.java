@@ -162,6 +162,7 @@ public final class Utilities {
     public static final String LENS_ACTIVITY = "com.google.android.apps.lens.MainActivity";
     public static final String LENS_URI = "google://lens";
     public static final String LENS_SHARE_ACTIVITY = "com.google.android.apps.search.lens.LensShareEntryPointActivity";
+    public static final String KEY_SMARTSPACE = "pref_smartspace";
     public static final String KEY_DOCK_SEARCH = "pref_dock_search";
 
     /**
@@ -983,4 +984,14 @@ public final class Utilities {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_DOCK_SEARCH, true);
     }
+
+    public static boolean showSmartspace(Context context) {
+        return isGSAEnabled(context) && isSmartspaceEnabled(context);
+    }
+
+    private static boolean isSmartspaceEnabled(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(KEY_SMARTSPACE, true);
+    }
+
 }
