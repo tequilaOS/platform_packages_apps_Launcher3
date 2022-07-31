@@ -29,6 +29,7 @@ import android.app.WallpaperManager;
 import android.content.Context;
 import android.content.pm.LauncherActivityInfo;
 import android.content.pm.LauncherApps;
+import android.content.pm.PackageManager;
 import android.content.pm.ShortcutInfo;
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -141,6 +142,9 @@ public final class Utilities {
     public static final int TRANSLATE_DOWN = 1;
     public static final int TRANSLATE_LEFT = 2;
     public static final int TRANSLATE_RIGHT = 3;
+
+    public static final String GSA_PACKAGE = "com.google.android.googlequicksearchbox";
+    public static final String KEY_SMARTSPACE = "pref_smartspace";
 
     @IntDef({TRANSLATE_UP, TRANSLATE_DOWN, TRANSLATE_LEFT, TRANSLATE_RIGHT})
     public @interface AdjustmentDirection{}
@@ -798,5 +802,22 @@ public final class Utilities {
             default:
                 // No-Op
         }
+    }
+
+    public static boolean isGSAEnabled(Context context) {
+        try {
+            return context.getPackageManager().getApplicationInfo(GSA_PACKAGE, 0).enabled;
+        } catch (PackageManager.NameNotFoundException e) {
+            return false;
+        }
+    }
+
+    public static boolean showSmartspace(Context context) {
+        return isGSAEnabled(context) && isSmartspaceEnabled(context);
+    }
+
+    private static boolean isSmartspaceEnabled(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(KEY_SMARTSPACE, true);
     }
 }
