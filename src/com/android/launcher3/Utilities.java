@@ -152,6 +152,8 @@ public final class Utilities {
     public static final boolean IS_DEBUG_DEVICE =
             Build.TYPE.toLowerCase(Locale.ROOT).equals("eng");
 
+    public static final String KEY_SMARTSPACE = "pref_smartspace";
+
     /**
      * Returns true if theme is dark.
      */
@@ -933,4 +935,14 @@ public final class Utilities {
     public static boolean bothNonNull(@Nullable Object a, @Nullable Object b) {
         return a != null && b != null;
     }
+
+    public static boolean showSmartspace(Context context) {
+        return isGSAEnabled(context) && isSmartspaceEnabled(context);
+    }
+
+    private static boolean isSmartspaceEnabled(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(KEY_SMARTSPACE, true);
+    }
+
 }
