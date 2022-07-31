@@ -57,6 +57,12 @@
         android:title="@string/title_show_google_app" />
 
     <SwitchPreference
+        android:key="pref_smartspace"
+        android:title="@string/smartspace_pref_title"
+        android:summary="@string/smartspace_pref_summary"
+        android:defaultValue="true" />
+
+    <SwitchPreference
         android:key="pref_show_top_shadow"
         android:title="@string/show_top_shadow"
         android:defaultValue="true"
