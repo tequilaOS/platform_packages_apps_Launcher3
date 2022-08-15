@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_desktop_labels">Label desktop</string>
+    <string name="summary_desktop_labels">Tampilkan label ikon pada desktop</string>
+    <string name="title_drawer_labels">Label aplikasi</string>
+    <string name="summary_drawer_labels">Tampilkan label ikon di laci aplikasi</string>
+    <string name="title_show_google_app">Geser untuk mengakses aplikasi Google</string>
+    <string name="msg_minus_one_on_left">Saat Anda menggeser ke kanan dari Layar Beranda</string>
+    <string name="msg_minus_one_on_right">Saat Anda menggeser ke kiri dari Layar Beranda</string>
+    <string name="label_search">Cari</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Pencarian suara</string>
+</resources>
