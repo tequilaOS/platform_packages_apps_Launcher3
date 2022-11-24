@@ -17,7 +17,7 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="title_show_google_app">Geser untuk mengakses aplikasi Google</string>
-    <string name="msg_minus_one_on_left">Saat Anda menggeser ke kanan dari Layar Beranda</string>
-    <string name="msg_minus_one_on_right">Saat Anda menggeser ke kiri dari Layar Beranda</string>
+    <string name="title_show_google_app">Google uygulamasına erişmek için kaydırın</string>
+    <string name="msg_minus_one_on_left">Ana ekrandan sağa kaydırdığınızda</string>
+    <string name="msg_minus_one_on_right">Ana sayfadan sağa kaydırdığınızda</string>
 </resources>
