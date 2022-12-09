@@ -107,11 +107,23 @@ public interface TaskShortcutFactory {
         }
     };
 
-    TaskShortcutFactory UNINSTALL = (activity, taskContainer) ->
-            PackageManagerHelper.isSystemApp(activity,
-                 taskContainer.getTask().getTopComponent().getPackageName())
-                    ? null : new SystemShortcut.UnInstall(activity,
-                        taskContainer.getItemInfo(), taskContainer.getTaskView());
+    TaskShortcutFactory UNINSTALL = new TaskShortcutFactory() {
+        @Override
+        public List<SystemShortcut> getShortcuts(BaseDraggingActivity activity,
+                TaskIdAttributeContainer taskContainer) {
+
+            if(PackageManagerHelper.isSystemApp(activity,
+                 taskContainer.getTask().getTopComponent().getPackageName())) return null;
+
+            return Collections.singletonList(new SystemShortcut.UnInstall(activity,
+                        taskContainer.getItemInfo(), taskContainer.getTaskView()));
+        }
+
+        @Override
+        public boolean showForSplitscreen() {
+            return true;
+        }
+    };
 
     class SplitSelectSystemShortcut extends SystemShortcut {
         private final TaskView mTaskView;
