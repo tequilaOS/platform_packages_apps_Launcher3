@@ -16,6 +16,9 @@
 -->
 <resources>
 
+    <!-- Categories -->
+    <string name="quick_actions_category_title">Quick actions</string>
+
     <!-- Show top shadow -->
     <string name="show_top_shadow">Show top shadow</string>
 
