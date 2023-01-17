@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 tequilaOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="quick_actions_category_title">Acciones rápidas</string>
+    <string name="show_top_shadow">Mostrar una sombra en la barra superior</string>
+    <string name="pref_dt_gesture_title">Doble toque para suspender</string>
+    <string name="pref_dt_gesture_summary">Doble toque en un espacio vacío para apagar la pantalla</string>
+    <string name="title_show_google_app">Deslizar para acceder al Feed de Google</string>
+    <string name="msg_minus_one_on_left">Cuando deslizas a la derecha desde la pantalla de inicio</string>
+    <string name="msg_minus_one_on_right">Cuando deslizas a la izquierda desde la pantalla de inicio</string>
+    <string name="label_search">Buscar</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Búsqueda por voz</string>
+    <string name="dock_search_title">Barra de búsqueda de Google</string>
+    <string name="dock_search_summary">Mostrar la barra de búsqueda en la parte inferior</string>
+    <string name="recents_screenshot_title">Captura de pantalla</string>
+    <string name="recents_clear_all_title">Borrar todo</string>
+    <string name="recents_lens_title">Lens</string>
+    <string name="suggestion_pref_screen_title">Sugerencias</string>
+    <string name="suggestion_pref_screen_desc">Sugerencias para todas las aplicaciones y pantalla de inicio</string>
+    <string name="smartspace_pref_title">De un vistazo</string>
+    <string name="smartspace_pref_summary">Mostrar espacio inteligente en el borde superior de la pantalla de inicio</string>
+</resources>
