@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d528a92d_24fe7ce0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-03-09T21:36:13Z",
+      "side": 1,
+      "message": "topic \"tortilla-launcher\" should be set for whole chain",
+      "revId": "445a81b856e1142a0fdaf87f85823964913e6b5a",
+      "serverId": "6e240c91-23cb-42f0-b60c-7c3c525b6cb9"
+    }
+  ]
+}
