@@ -16,9 +16,12 @@
 -->
 <resources>
     <string name="quick_actions_category_title">Szybkie akcje</string>
+    <string name="show_top_shadow">Pokaż górny cień</string>
     <string name="pref_dt_gesture_title">Stuknij dwukrotnie aby uśpić</string>
     <string name="pref_dt_gesture_summary">Kliknij dwukrotnie w puste miejsce, aby wyłączyć ekran</string>
     <string name="title_show_google_app">Przesuń, aby uzyskać dostęp do aplikacji Google</string>
+    <string name="msg_minus_one_on_left">Gdy przesuniesz w prawo od ekranu głównego</string>
+    <string name="msg_minus_one_on_right">Gdy przesuniesz w lewo od ekranu głównego</string>
     <string name="label_search">Szukaj</string>
     <string name="label_lens">Obiektyw Google</string>
     <string name="label_voice_search">Wyszukiwanie głosowe</string>
@@ -28,6 +31,7 @@
     <string name="recents_clear_all_title">Wyczyść wszystko</string>
     <string name="recents_lens_title">Obiektyw</string>
     <string name="suggestion_pref_screen_title">Sugestie</string>
+    <string name="suggestion_pref_screen_desc">Sugestie dotyczące wszystkich aplikacji i ekranu głównego</string>
     <string name="smartspace_pref_title">W skrócie</string>
     <string name="smartspace_pref_summary">Pokaż inteligentną przestrzeń w górnej części ekranu</string>
 </resources>
