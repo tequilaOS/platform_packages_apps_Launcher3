@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "75ad9446_b478cc19",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-30T07:58:59Z",
+      "side": 1,
+      "message": "Should switch to LauncherPrefs\nhttps://github.com/tequilaOS/platform_packages_apps_Launcher3/commit/0cab6e29dbad0b7e50456a9770070393f5b02f67",
+      "revId": "b3527e89dc9d4450ce81263cd2f18c7fff1af88e",
+      "serverId": "6e240c91-23cb-42f0-b60c-7c3c525b6cb9"
+    }
+  ]
+}
