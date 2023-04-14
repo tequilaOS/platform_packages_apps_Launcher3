@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="title_show_google_app">Wischen, um auf die Google-App zuzugreifen</string>
+    <string name="msg_minus_one_on_left">Wenn du nach rechts vom Hauptstartbildschirm wischst</string>
+    <string name="msg_minus_one_on_right">Wenn du nach Links vom Hauptstartbildschirm wischst</string>
+    <string name="suggestion_pref_screen_title">Vorschläge</string>
+    <string name="suggestion_pref_screen_desc">Für alle Apps und Startbildschirmvorschläge</string>
+</resources>

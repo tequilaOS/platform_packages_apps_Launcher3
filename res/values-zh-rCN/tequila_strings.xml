@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="title_show_google_app">滑动以访问 Google 应用</string>
+    <string name="msg_minus_one_on_left">从主屏幕向右滑动时</string>
+    <string name="msg_minus_one_on_right">从主屏幕向左滑动时</string>
+    <string name="suggestion_pref_screen_title">建议</string>
+    <string name="suggestion_pref_screen_desc">对于所有应用程序 &amp; 主屏幕建议</string>
+</resources>

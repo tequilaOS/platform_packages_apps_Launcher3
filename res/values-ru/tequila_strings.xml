@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="title_show_google_app">Пролистнуть для включения Google</string>
+    <string name="msg_minus_one_on_left">Проведение пальцем вправо на главном экране</string>
+    <string name="msg_minus_one_on_right">Проведение пальцем влево на главном экране</string>
+    <string name="suggestion_pref_screen_title">Предложения</string>
+    <string name="suggestion_pref_screen_desc">Все приложения &amp; Предложения на главном экране</string>
+</resources>

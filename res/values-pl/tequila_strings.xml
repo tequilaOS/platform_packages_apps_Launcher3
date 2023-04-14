@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="title_show_google_app">Przesuń, aby uzyskać dostęp do aplikacji Google</string>
+    <string name="msg_minus_one_on_left">Gdy przesuniesz w prawo od ekranu głównego</string>
+    <string name="msg_minus_one_on_right">Gdy przesuniesz w lewo od ekranu głównego</string>
+    <string name="suggestion_pref_screen_title">Sugestie</string>
+    <string name="suggestion_pref_screen_desc">Sugestie dotyczące wszystkich aplikacji i ekranu głównego</string>
+</resources>

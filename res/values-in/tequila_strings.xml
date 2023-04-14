@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="title_show_google_app">Geser untuk mengakses aplikasi Google</string>
+    <string name="msg_minus_one_on_left">Saat Anda menggeser ke kanan dari layar beranda</string>
+    <string name="msg_minus_one_on_right">Saat Anda menggeser ke kiri dari layar beranda</string>
+    <string name="suggestion_pref_screen_title">Saran</string>
+    <string name="suggestion_pref_screen_desc">Untuk semua aplikasi &amp; saran layar beranda</string>
+</resources>
