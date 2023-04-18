@@ -14,4 +14,6 @@
     <!-- Smartspace -->
     <string name="smartspace_pref_title">At a Glance</string>
     <string name="smartspace_pref_summary">Show smartspace at the top of home screen</string>
+
+    <string name="restarting_launcher">Restarting launcher...</string>
 </resources>
