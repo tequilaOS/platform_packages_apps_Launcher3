@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="msg_minus_one_on_left">Όταν σύρετε προς τα δεξιά από την κύρια αρχική οθόνη</string>
+    <string name="msg_minus_one_on_right">Όταν σύρετε προς τα αριστερά από την κύρια αρχική οθόνη</string>
+    <string name="suggestion_pref_screen_title">Προτάσεις</string>
+    <string name="suggestion_pref_screen_desc">Για όλες τις εφαρμογές&amp; Προτάσεις αρχικής οθόνης</string>
+    <string name="pref_dt_gesture_title">Διπλό πάτημα για αναστολή</string>
+    <string name="pref_dt_gesture_summary">Πατήστε δύο φορές σε κενό χώρο για να απενεργοποιήσετε την οθόνη</string>
+    <string name="settings_lock_layout_title">Κλείδωμα διάταξης</string>
+    <string name="settings_lock_layout_summary_on">Εικονίδια και widget δεν μπορούν να προστεθούν, να αφαιρεθούν και να μετακινηθούν στην αρχική οθόνη</string>
+    <string name="settings_lock_layout_summary_off">Εικονίδια και widgets μπορούν να προστεθούν, να αφαιρεθούν και να μετακινηθούν στην αρχική οθόνη</string>
+    <string name="settings_edit_widgets_error">Δεν είναι δυνατή η προσθήκη widget στην αρχική οθόνη</string>
+    <string name="desktop_show_labels">Εμφάνιση ετικετών εικονιδίων στην αρχική οθόνη</string>
+    <string name="drawer_show_labels">Απόκρυψη ετικετών εικονιδίων στο συρτάρι εφαρμογών</string>
+    <string name="category_icon">Εικονίδια</string>
+    <string name="category_misc">Διάφορα</string>
+    <string name="action_lens">Lens</string>
+    <string name="label_search">Αναζήτηση</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Φωνητική αναζήτηση</string>
+    <string name="dock_search_title">Γραμμή αναζήτησης Google</string>
+    <string name="dock_search_summary">Εμφάνιση γραμμής αναζήτησης στην κάτω μπάρα εφαρμογών</string>
+    <string name="show_top_shadow">Εμφάνιση σκιάς στην κορυφή της αρχικής οθόνης</string>
+</resources>

@@ -4,9 +4,25 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <string name="title_show_google_app">Llisca per accedir a l\'aplicació Google</string>
     <string name="msg_minus_one_on_left">Quan llisques a la dreta des de la pantalla d\'inici</string>
     <string name="msg_minus_one_on_right">Quan llisques a l\'esquerra des de la pantalla d\'inici</string>
     <string name="suggestion_pref_screen_title">Suggeriments</string>
     <string name="suggestion_pref_screen_desc">Suggeriments per a totes les aplicacions i pantalla d\'inici</string>
+    <string name="pref_dt_gesture_title">Doble toc per posar en repòs</string>
+    <string name="pref_dt_gesture_summary">Fes doble toc a un espai buit per apagar la pantalla</string>
+    <string name="settings_lock_layout_title">Bloqueja la disposició</string>
+    <string name="settings_lock_layout_summary_on">Les icones i els ginys no es poden afegir, eliminar ni moure a la pantalla d\'inici</string>
+    <string name="settings_lock_layout_summary_off">Les icones i els ginys es poden afegir, eliminar i moure a la pantalla d\'inici</string>
+    <string name="settings_edit_widgets_error">No és possible afegir ginys a la pantalla d\'inici</string>
+    <string name="desktop_show_labels">Mostra les etiquetes de les icones a l\'escriptori</string>
+    <string name="drawer_show_labels">Mostra les etiquetes de les icones al calaix</string>
+    <string name="category_icon">Icones</string>
+    <string name="category_misc">Miscel·lània</string>
+    <string name="action_lens">Lens</string>
+    <string name="label_search">Cerca</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Cerca per veu</string>
+    <string name="dock_search_title">Barra de cerca de Google</string>
+    <string name="dock_search_summary">Mostra la barra de cerca a l\'acoblador inferior</string>
+    <string name="show_top_shadow">Mostra l\'ombra superior</string>
 </resources>

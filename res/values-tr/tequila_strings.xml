@@ -4,7 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <string name="title_show_google_app">Google uygulamasına erişmek için kaydırın</string>
     <string name="msg_minus_one_on_left">Ana ekrandan sağa kaydırdığınızda</string>
     <string name="msg_minus_one_on_right">Ana sayfadan sağa kaydırdığınızda</string>
     <string name="suggestion_pref_screen_title">Öneriler</string>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="title_show_google_now">Пракруціць для паказу прыкладанняў Google</string>
+    <string name="msg_minus_one_on_left">Пракруціце пальцам направа на галоўным экране</string>
+    <string name="msg_minus_one_on_right">Пракруціце пальцам налева на галоўным экране</string>
+    <string name="suggestion_pref_screen_title">Рэкамендацыі</string>
+    <string name="suggestion_pref_screen_desc">Паказваць рэкамендацыі ў спісе прыкладанняў і на галоўным экране</string>
+    <string name="pref_dt_gesture_title">Падвойны націск для блакіроўкі</string>
+    <string name="pref_dt_gesture_summary">Націсніце падвоена па пустому месцу для блакіроўкі</string>
+    <string name="settings_lock_layout_title">Заблакіраваць рэдагаванне</string>
+    <string name="settings_lock_layout_summary_on">Абразкі і віджэты не могуць быць дабаўлены, выдалены або перамешчаны на галоўны экран</string>
+    <string name="settings_lock_layout_summary_off">Абразкі і віджэты могуць быць дабаўлены, выдалены або перамешчаны на галоўны экран</string>
+    <string name="settings_edit_widgets_error">Немагчыма дабавіць віджэт на галоўны экран</string>
+    <string name="desktop_show_labels">Паказваць надпіс абразкоў на рабочым стале</string>
+    <string name="drawer_show_labels">Паказваць надпіс абразкоў у меню</string>
+    <string name="category_icon">Абразкі</string>
+    <string name="category_misc">Іншыя</string>
+    <string name="category_google">Google</string>
+    <string name="action_lens">Lens</string>
+    <string name="label_search">Пошук</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Галасавы пошук</string>
+    <string name="dock_search_title">Пошукавы радок Google</string>
+    <string name="dock_search_summary">Паказваць пошукавы радок унізе дока</string>
+    <string name="show_top_shadow">Паказваць цень зверху</string>
+    <string name="smartspace_pref_title">У Glance</string>
+    <string name="smartspace_pref_summary">Паказваць разумную прастору зверху галоўнага экрана</string>
+</resources>

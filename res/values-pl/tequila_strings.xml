@@ -4,9 +4,29 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <string name="title_show_google_app">Przesuń, aby uzyskać dostęp do aplikacji Google</string>
+    <string name="title_show_google_now">Przesuń, aby uzyskać dostęp do aplikacji Google</string>
     <string name="msg_minus_one_on_left">Gdy przesuniesz w prawo od ekranu głównego</string>
     <string name="msg_minus_one_on_right">Gdy przesuniesz w lewo od ekranu głównego</string>
     <string name="suggestion_pref_screen_title">Sugestie</string>
     <string name="suggestion_pref_screen_desc">Sugestie dotyczące wszystkich aplikacji i ekranu głównego</string>
+    <string name="pref_dt_gesture_title">Stuknij dwukrotnie, aby uśpić</string>
+    <string name="pref_dt_gesture_summary">Kliknij dwukrotnie w puste miejsce, aby wyłączyć ekran</string>
+    <string name="settings_lock_layout_title">Zablokuj układ</string>
+    <string name="settings_lock_layout_summary_on">Ikon i widżetów nie można dodawać, usuwać ani przenosić na ekranie głównym</string>
+    <string name="settings_lock_layout_summary_off">Ikony i widżety można dodawać, usuwać i przenosić na ekranie głównym</string>
+    <string name="settings_edit_widgets_error">Nie można dodać widżetów do ekranu głównego</string>
+    <string name="desktop_show_labels">Pokaż etykiety ikon na pulpicie</string>
+    <string name="drawer_show_labels">Pokaż etykiety ikon w szufladzie aplkacji</string>
+    <string name="category_icon">Ikony</string>
+    <string name="category_misc">Różne</string>
+    <string name="category_google">Google</string>
+    <string name="action_lens">Obiektyw</string>
+    <string name="label_search">Szukaj</string>
+    <string name="label_lens">Obiektyw Google</string>
+    <string name="label_voice_search">Wyszukiwanie głosowe</string>
+    <string name="dock_search_title">Pasek wyszukiwania Google</string>
+    <string name="dock_search_summary">Pokaż pasek wyszukiwania na dole</string>
+    <string name="show_top_shadow">Pokaż górny cień</string>
+    <string name="smartspace_pref_title">W skrócie</string>
+    <string name="smartspace_pref_summary">Pokaż inteligentną przestrzeń w górnej części ekranu</string>
 </resources>

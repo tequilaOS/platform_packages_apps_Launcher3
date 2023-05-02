@@ -4,9 +4,29 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <string name="title_show_google_app">Пролистнуть для включения Google</string>
+    <string name="title_show_google_now">Пролистнуть для показа приложений Google</string>
     <string name="msg_minus_one_on_left">Проведение пальцем вправо на главном экране</string>
     <string name="msg_minus_one_on_right">Проведение пальцем влево на главном экране</string>
-    <string name="suggestion_pref_screen_title">Предложения</string>
-    <string name="suggestion_pref_screen_desc">Все приложения &amp; Предложения на главном экране</string>
+    <string name="suggestion_pref_screen_title">Рекомендации</string>
+    <string name="suggestion_pref_screen_desc">Показывает рекомендации в списке приложений и на главном экране</string>
+    <string name="pref_dt_gesture_title">Двойное нажатие для блокировки</string>
+    <string name="pref_dt_gesture_summary">Нажмите два раза по пустому месту для блокировки</string>
+    <string name="settings_lock_layout_title">Заблокировать редактирование</string>
+    <string name="settings_lock_layout_summary_on">Иконки и виджеты не могут быть добавлены, удалены или перемещены на главный экран</string>
+    <string name="settings_lock_layout_summary_off">Иконки и виджеты могут быть добавлены, удалены или перемещены на главный экран</string>
+    <string name="settings_edit_widgets_error">Невозможно добавить виджеты на главный экран</string>
+    <string name="desktop_show_labels">Показывать название иконок на рабочем столе</string>
+    <string name="drawer_show_labels">Показывать названия иконок в меню</string>
+    <string name="category_icon">Иконки</string>
+    <string name="category_misc">Прочие</string>
+    <string name="category_google">Google</string>
+    <string name="action_lens">Lens</string>
+    <string name="label_search">Поиск</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Голосовой поиск</string>
+    <string name="dock_search_title">Поисковая строка Google</string>
+    <string name="dock_search_summary">Показывать поисковую строку внизу дока</string>
+    <string name="show_top_shadow">Показывать тень сверху</string>
+    <string name="smartspace_pref_title">В Glance</string>
+    <string name="smartspace_pref_summary">Показывать умное пространство сверху главного экрана</string>
 </resources>

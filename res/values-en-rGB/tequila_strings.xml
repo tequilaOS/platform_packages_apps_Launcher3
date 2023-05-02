@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="title_show_google_now">Swipe to access Google app</string>
+    <string name="msg_minus_one_on_left">When you swipe right from main home screen</string>
+    <string name="msg_minus_one_on_right">When you swipe left from main home screen</string>
+    <string name="suggestion_pref_screen_title">Suggestions</string>
+    <string name="suggestion_pref_screen_desc">For All Apps &amp; Home screen suggestions</string>
+    <string name="pref_dt_gesture_title">Double tap to sleep</string>
+    <string name="pref_dt_gesture_summary">Double tap on empty space to turn screen off</string>
+</resources>
