@@ -4,6 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+    <string name="title_show_google_now">Wischen, um auf die Google-App zuzugreifen</string>
     <string name="msg_minus_one_on_left">Wenn du nach rechts vom Hauptstartbildschirm wischst</string>
     <string name="msg_minus_one_on_right">Wenn du nach Links vom Hauptstartbildschirm wischst</string>
     <string name="suggestion_pref_screen_title">Vorschläge</string>
@@ -18,6 +19,7 @@
     <string name="drawer_show_labels">Symbolbeschriftungen in der App-Übersicht anzeigen</string>
     <string name="category_icon">Symbole</string>
     <string name="category_misc">Sonstiges</string>
+    <string name="category_google">Google</string>
     <string name="action_lens">Lens</string>
     <string name="label_search">Suche</string>
     <string name="label_lens">Google Lens</string>
@@ -25,4 +27,6 @@
     <string name="dock_search_title">Google-Suchleiste</string>
     <string name="dock_search_summary">Suchleiste im unteren Dock anzeigen</string>
     <string name="show_top_shadow">Oberen Schatten anzeigen</string>
+    <string name="smartspace_pref_title">Auf einen Blick</string>
+    <string name="smartspace_pref_summary">Smartspace am oberen Teil des Startbildschirms zeigen</string>
 </resources>
