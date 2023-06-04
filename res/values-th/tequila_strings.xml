@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="suggestion_pref_screen_title">คำแนะนำ</string>
+    <string name="pref_dt_gesture_title">แตะหน้าจอสองครั้งเพื่อปิดหน้าจอ</string>
+    <string name="category_icon">ไอคอน</string>
+    <string name="category_misc">อื่นๆ</string>
+    <string name="category_google">Google</string>
+    <string name="action_lens">เลนส์</string>
+    <string name="label_search">ค้นหา</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">ค้นหาด้วยเสียง</string>
+    <string name="dock_search_title">แถบค้นหาของ Google</string>
+</resources>
