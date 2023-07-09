@@ -22,6 +22,7 @@ import static com.android.launcher3.config.FeatureFlags.IS_STUDIO_BUILD;
 
 import static com.android.launcher3.Utilities.KEY_DOCK_SEARCH;
 import static com.android.launcher3.Utilities.KEY_SMARTSPACE;
+import static com.android.launcher3.Utilities.KEY_FORCE_MONOCHROME_ICONS;
 import static com.android.launcher3.states.RotationHelper.ALLOW_ROTATION_PREFERENCE_KEY;
 
 import static com.tequila.launcher.OverlayCallbackImpl.KEY_ENABLE_MINUS_ONE;
@@ -154,6 +155,7 @@ public class SettingsActivity extends CollapsingToolbarBaseActivity
         switch (key) {
             case KEY_DOCK_SEARCH:
             case KEY_SMARTSPACE:
+            case KEY_FORCE_MONOCHROME_ICONS:
                 LauncherAppState.getInstanceNoCreate().setNeedsRestart();
                 break;
             default:
