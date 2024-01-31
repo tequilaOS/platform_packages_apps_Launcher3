@@ -204,6 +204,7 @@
 
     </grid-option>
 
+<!-- Broken Smartspace
     <grid-option
         launcher:name="5_by_6"
         launcher:numRows="6"
@@ -320,5 +321,6 @@
             launcher:canBeDefault="true" />
 
     </grid-option>
+    Broken Smartspace-->
 
 </profiles>
